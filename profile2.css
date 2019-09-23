@@ -1,0 +1,315 @@
+body{
+	font-family: serif;
+	max-width: 100%;
+	background: yellow;
+}
+*{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+.container {
+	height:100px;
+	background-color: #373946;
+}
+h1 {
+	font: bolder;
+	color:white;
+	padding-left:80px;
+	padding-top:30px;
+	font-family: Roboto;
+}
+nav{
+	width:500px;
+	float: right;
+	margin-right: 80px;
+}
+.navigation_list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin-top: -30px;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+.profile{
+	width:100%;
+	height: 500px;
+	background: url('./images/head.png');
+
+}
+.icons {
+	display: flex;
+	margin-left: 900px;
+	padding-top: 350px;
+	justify-content: space-between;
+	width: 300px;
+
+}
+.icon {
+	width: 70px;
+	height: 47px;
+}
+span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FBD04D;
+}
+h2 {
+	float: right;
+	padding-top: 200px;
+	padding-right: 250px;
+}
+.welcome {
+	text-align:center;
+	background-color: #373946;
+	width: 100%;
+	height: 300px;
+	padding-top: 50px;
+	align-content:  center;
+}
+.welcome h3{
+	font: 20px;
+	font-family: Roboto;
+	color:white;
+	padding-bottom:40px;
+}
+.welcome p{
+	color:white;
+	font-size: 14px;
+	font-family: sans-serif;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+hr{
+	width: 30px;
+	margin-left:650px;
+}
+
+.bot {
+	background-color: yellow;
+	width: 100px;
+	height: 40px;
+	border: none;
+	margin-left: -10px;
+}
+.bt {
+	background-color: #E5E5E5;
+	width: 100px;
+	height: 40px;
+	border:none;
+
+}
+.likes h4 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: black;
+} 
+.likes h6 {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+padding-top: 25px;
+}
+.likes p {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: lighter;
+font-size: 16px;
+color: #000000;
+padding-top: 25px;
+}
+.likes hr {
+	margin-left: -1px;
+	border: 1px solid black;
+}
+.likes {
+	width: 345px;
+	height: 287px;
+	margin-left: 100px;
+	padding-top: 100px;
+	
+}
+
+
+.know h4 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: black;
+} 
+.know h6 {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+padding-top: 25px;
+}
+.know p {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: lighter;
+font-size: 16px;
+color: #000000;
+padding-top: 25px;
+}
+.know hr {
+	margin-left: -1px;
+	border: 1px solid black;
+}
+.know {
+	width: 345px;
+	height: 287px;
+	margin-top: 100px;
+	padding-left: 50px;
+	
+}
+
+
+
+
+.interest h4 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: black;
+} 
+.interest h6 {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+padding-top: 25px;
+}
+.interest p {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: lighter;
+font-size: 16px;
+color: #000000;
+padding-top: 25px;
+}
+.interest hr {
+	margin-left: -1px;
+	border: 1px solid black;
+}
+.interest {
+	width: 345px;
+	height: 287px;
+	margin-top: 100px;
+	padding-left: 50px;
+	
+}
+.pictures h4 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+	padding-top: 50px;
+}
+.pictures hr {
+	border: 1px solid black;
+	margin-top: 30px;
+}
+.pictures p {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.p1 {
+	width: 507.5px;
+	height: 401.57px;
+	margin-left: 150px;
+	margin-top: 40px;
+}
+  
+.p2 {
+	width: 507.5px;
+	height: 401.57px;
+	margin-left: 40px;
+}
+
+.circle {
+	height: 14px;
+	width: 14px;
+	background: black;
+	border-radius: 50%;
+	margin-left: 600px;
+	margin-bottom: 0.8em;
+	margin-left: 4px;
+	
+
+}
+	
+.my-page {
+	height: 330px;
+	background: #ECECEE;
+	border: 1px solid #000000;
+}
+
+.my-page-section {
+	background: #ECECEE;
+	border: 1px solid #000000;
+	height: 60px;
+	width: 500px;
+	display: flex;
+	margin-left: 420px;
+	margin-top: 150px;
+}
+
+.my-page-section button {
+	width: 50px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 50px;
+
+}
+.my-page-section p {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.like {
+	background: #ffffff;
+}
+
+.press {
+	background: #FBD04D;
+}
+
+.bottom {
+	width: 1463px;
+	height: 100px;
+	background: #373946;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.bottom p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: #F2F2F2;
+	margin-top: 50px;
+}
